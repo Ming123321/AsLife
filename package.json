@@ -1,0 +1,42 @@
+{
+  "name": "Webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack ./src/index.js -o ./dist/bundle.js --mode development",
+    "dev": "webpack-dev-server --open --port 8060 --contentBase src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/runtime": "^7.9.2",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.2",
+    "file-loader": "^6.0.0",
+    "less": "^3.11.1",
+    "less-loader": "^6.0.0",
+    "style-loader": "^1.1.4",
+    "url-loader": "^4.1.0",
+    "vue-loader": "^15.9.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.42.1",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "mint-ui": "^2.2.13",
+    "moment": "^2.25.3",
+    "qs": "^6.9.4",
+    "vue": "^2.6.11",
+    "vue-preview": "^1.1.3",
+    "vue-router": "^3.1.6",
+    "vuex": "^3.3.0"
+  }
+}
